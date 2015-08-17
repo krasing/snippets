@@ -25,6 +25,15 @@
 \right.  % no closing bracket
 ```
 
+*Equations*
+
+  - basic formula, block: `\[  ax+b \]`, inline: `$ax+b$` or just `$a$`
+  - environment for single equation, numbered: `equation`, unnumbered: `equation*`
+  - environment for splitting single equation on multiple lines: `split` (should be defined in equation environment)
+  - environment for multiple equations: `align` (you can add `\label{eqn:Y}` for each line)
+
+
+
 ## Examples
 Properly write nonstandard function name:
 
