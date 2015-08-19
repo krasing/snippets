@@ -1,3 +1,30 @@
+## General file arrangement
+
+LaTeX project is organized into *preamble* and nested *environments* and contain commands and text.
+
+The preamble contains commands to:
+
+  - define document class, e.g. `\documentclass{article}` for scholarly papers
+  - load packages to add functionality, e.g. `\usepackage{amsmath}` for advanced math formatting
+  - define document metadata, e.g. `\title{Name of this report}`
+  - define custom commands (see below)
+  
+There is single root environment called *document*.
+
+  - starts with `\begin{document}` and contains everything to `\end{document}`
+  - can contain text, commands and other environments
+  - all other environments are defined in a similar manner
+
+Commands start with `\`, than have command name and argument, e.g. `\section{My first heading h1}`
+orders *My first heading h1* to be printed appropriately formatted as heading (`\section`) . All document metadata are printed with `\maketitle` command
+
+Multiple text files (pure text or text with commands and environments) could be imported in the main document:
+  
+  - `\include{Chapter3}` (top level, no nesting)
+  - `\input{./Chapter3/Introduction}`
+
+  
+## Syntax
 
 *Properly write nonstandard function name*
 
