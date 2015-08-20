@@ -78,7 +78,7 @@ Other usefull options: `width=2.5cm`, `width=\linewidth` (columnwidth, textwidth
     \label{fig:awesome_image}
 \end{figure}
 ```
-In square brackets - preffered positions, t - top, b - bottom, h - here, p - special page, ! - override. Default - top
+In square brackets - preferred positions, t - top, b - bottom, h - here, p - special page, ! - override. Default - top
 
 ## Examples
 Properly write nonstandard function name:
