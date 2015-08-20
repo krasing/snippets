@@ -71,7 +71,7 @@ Other usefull options: `width=2.5cm`, `width=\linewidth` (columnwidth, textwidth
 - images as figures -  if captions and cross-referencing is needed - use *figure* environment
 
 ```latex
-\begin{figure}[bp]
+\begin{figure}[hbp]
     \centering
       \includegraphics[width=0.8\textwidth]{image.png}
     \caption{Awesome Image}
