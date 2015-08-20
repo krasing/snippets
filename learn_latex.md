@@ -59,7 +59,26 @@ Multiple text files (pure text or text with commands and environments) could be 
   - environment for splitting single equation on multiple lines: `split` (should be defined in equation environment)
   - environment for multiple equations: `align` (you can add `\label{eqn:Y}` for each line)
 
+*Images*
 
+- first - check the compiler -  *pdftex* (LaTeX -> PDF output profile in TeXnicCenter) for jpg, png and pdf images or *latex* (LaTeX -> DVI) for eps
+- `\usepackage{graphicx}` in the preamble
+- `\includegraphics[scale=0.5]{imagename}` to add image,  `imagename` could be without extention.
+Other usefull options: `width=2.5cm`, `width=\linewidth` (columnwidth, textwidth), `height=\textheight`, `angle=180`,
+`[trim = 10mm 80mm 20mm 5mm, clip, width=3cm]`
+- `\graphicspath{ {./images/} }` - if images are in different folder
+- `\usepackage{epstopdf}` - to add eps file format capability for pdf compiler
+- images as figures -  if captions and cross-referencing is needed - use *figure* environment
+
+```latex
+\begin{figure}[bp]
+    \centering
+      \includegraphics[width=0.8\textwidth]{image.png}
+    \caption{Awesome Image}
+    \label{fig:awesome_image}
+\end{figure}
+```
+In square brackets - preffered positions, t - top, b - bottom, h - here, p - special page, ! - override. Default - top
 
 ## Examples
 Properly write nonstandard function name:
