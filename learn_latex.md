@@ -103,3 +103,5 @@ Properly write nonstandard function name:
 \end{matrix} \right.
 \]
 ```
+
+*Big interval in equation:* `\qquad`
