@@ -43,6 +43,15 @@ Multiple text files (pure text or text with commands and environments) could be 
 % instead of:
 \lvert y_i(t) \rvert
 ```
+*Advanced custom functions*
+
+```latex
+\newcommand { \ft }[3]{
+  \ensuremath {
+    \int_{-\infty}^{\infty}{#3 e^{-j2\pi#2#1} d#1 } 
+	}
+}
+```
 
 *Brackets*
 
