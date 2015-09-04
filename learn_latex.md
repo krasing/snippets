@@ -114,3 +114,7 @@ Properly write nonstandard function name:
 ```
 
 *Big interval in equation:* `\qquad`
+
+## Workflow
+
+`\includeonly{Flat_filters}` - Compile (include) only selected files
