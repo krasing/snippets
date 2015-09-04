@@ -118,3 +118,14 @@ Properly write nonstandard function name:
 ## Workflow
 
 `\includeonly{Flat_filters}` - Compile (include) only selected files
+
+Matlab integration - save images directly in LaTeX folder:
+
+```matlab
+file_name = 'energy_flat'
+a = cd('P:\writing_reports\Background\Figs');
+set(gcf, 'PaperUnits', 'inches', 'PaperPosition', [0, 0, 7, 3]);
+print('-painters', file_name, '-depsc')
+print(file_name, '-dpng', '-r200')
+cd(a)
+```
