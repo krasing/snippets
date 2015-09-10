@@ -89,6 +89,11 @@ Other usefull options: `[scale=0.5]`, `[width=\linewidth]` (linewidth, columnwid
 ```
 In square brackets - preferred positions, t - top, b - bottom, h - here, p - special page, ! - override. Default - top
 
+*Referencing*
+
+- for equations `Equation \eqref{eq:X_MS}` will give something like `Equation (5)`
+- for figures `Figure \ref{fig:X_MS}` will give something like `Figure 5`
+
 ## Examples
 Properly write nonstandard function name:
 
