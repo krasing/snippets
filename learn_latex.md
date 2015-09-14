@@ -38,6 +38,13 @@ Sections  are used to define headings and subheadings that are numbered, appropr
 
 Paragraphs as `\paragraph`, `\subparagraph` are not numbered and the text follow on the same line.
 
+*Equations*
+
+  - basic formula block: `\[  ax+b \]`, inline expression: `$ax+b$` or single variable `$a$`
+  - environment for single equation, numbered: `equation`, unnumbered: `equation*`
+  - environment for splitting single equation on multiple lines: `split` (should be defined in equation environment)
+  - environment for multiple equations: `align` (you can add `\label{eqn:Y}` for each line)
+
 *Properly write nonstandard function name*
 
 ```latex
@@ -72,13 +79,6 @@ Paragraphs as `\paragraph`, `\subparagraph` are not numbered and the text follow
 \right]  % closing bracket of type ]
 \right.  % no closing bracket
 ```
-
-*Equations*
-
-  - basic formula, block: `\[  ax+b \]`, inline: `$ax+b$` or just `$a$`
-  - environment for single equation, numbered: `equation`, unnumbered: `equation*`
-  - environment for splitting single equation on multiple lines: `split` (should be defined in equation environment)
-  - environment for multiple equations: `align` (you can add `\label{eqn:Y}` for each line)
 
 *Images*
 
