@@ -26,6 +26,18 @@ Multiple text files (pure text or text with commands and environments) could be 
   
 ## Syntax
 
+*Document structure*
+
+Sections  are used to define headings and subheadings that are numbered, appropriately formated and on separate lines:
+
+```latex
+\section{First level heading title}
+\subsection{Second level heading title}
+\subsubsection{Some text}
+```
+
+Paragraphs as `\paragraph`, `\subparagraph` are not numbered and the text follow on the same line.
+
 *Properly write nonstandard function name*
 
 ```latex
