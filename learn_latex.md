@@ -148,3 +148,10 @@ print('-painters', file_name, '-depsc')
 print(file_name, '-dpng', '-r200')
 cd(a)
 ```
+
+Set the fonts for Matlab graphs
+
+```matlab
+set(0,'DefaultTextFontName','Times','DefaultTextFontSize',8,...
+   'DefaultAxesFontName','Times','DefaultAxesFontSize',8)
+```
