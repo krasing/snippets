@@ -132,7 +132,11 @@ Properly write nonstandard function name:
 \]
 ```
 
+## Hints
+
 *Big interval in equation:* `\qquad`
+
+*Too many unprocessed floats error:* add somewhere `\clearpage` to start new page. Due to  too many figures and tables
 
 ## Workflow
 
