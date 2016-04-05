@@ -138,6 +138,10 @@ Properly write nonstandard function name:
 
 *Too many unprocessed floats error:* add somewhere `\clearpage` to start new page. Due to  too many figures and tables
 
+*Intervals in increasing size:* `\!`, `\,`, `\:`, `\;`, `\quad`, `\qquad`
+
+*Text in equation:* `\textrm{and}`
+
 ## Workflow
 
 `\includeonly{Flat_filters}` - Compile (include) only selected files
