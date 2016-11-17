@@ -99,7 +99,10 @@ Other usefull options: `[scale=0.5]`, `[width=\linewidth]` (linewidth, columnwid
     \label{fig:awesome_image}
 \end{figure}
 ```
+
 In square brackets - preferred positions, t - top, b - bottom, h - here, p - special page, ! - override. Default - top
+
+- The label should be after the caption! 
 
 *Referencing*
 
