@@ -108,8 +108,9 @@ In square brackets - preferred positions, t - top, b - bottom, h - here, p - spe
 
 - for equations `Equation \eqref{eq:X_MS}` will give something like `Equation (5)`
 - for figures `Figure \ref{fig:X_MS}` will give something like `Figure 5`
-- for literature, end of sentence: `some text~\citep{Lyons2010}` --> 'some text (Lyons, 2010)'
-- for literature, part of the sentence: `the original idea of \citet{Lyons2010} for` --> 'the original idea of Lyons (2010) for'
+- for literature: `\cite[pp.~45]{Stoica2005}` --> [28, pp. 45]
+- for literature, end of sentence (require *natbib* package): `some text~\citep{Lyons2010}` --> 'some text (Lyons, 2010)'
+- for literature, part of the sentence (with *natbib*): `the original idea of \citet{Lyons2010} for` --> 'the original idea of Lyons (2010) for'
 
 ## Examples
 Properly write nonstandard function name:
