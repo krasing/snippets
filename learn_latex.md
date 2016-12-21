@@ -167,3 +167,17 @@ Set the fonts for Matlab graphs
 set(0,'DefaultTextFontName','Times','DefaultTextFontSize',8,...
    'DefaultAxesFontName','Times','DefaultAxesFontSize',8)
 ```
+Short and long title, to restrict the length of the text in the TOC and page header 
+
+```latex
+\caption[short caption]{Full caption}
+\section[short title]{Full title}
+```
+
+Add nomenclature (list of simbols) - 
+[StackExchange question](http://tex.stackexchange.com/questions/14697/how-to-typeset-mathematical-symbols-with-index-etc-always-the-same-way-and-ea), [ShareLaTeX guide](https://www.sharelatex.com/learn/Nomenclatures)
+
+```
+Some printable text $n = 0 \dots N-1$
+\nomenclature{$n$}{Discrete time index}
+```
